@@ -2,15 +2,30 @@ import React from 'react';
 import './App.css';
 import { moviesData } from './moviesData'
 import MovieItem from './components/MovieItem';
-
+import { API_URL, API_KEY_3 } from './utils/api'
 class App extends React.Component {
   constructor() {
     super();
 
     this.state = {
-      movies: moviesData,
+      movies: [],
       moviesWillWatch: []
     }
+  }
+
+  componentDidMount() {
+    console.log("didMount")
+    fetch(`${API_URL}/discover/movie?api_key=${API_KEY_3}&sort_by=popularity.desc`)
+      .then((response) => {
+        return response.json()
+      })
+      .then((data) => {
+        console.log('data', data)
+        this.setState({
+          movies: data.results
+        })
+      })
+    // console.log('after fetch')
   }
 
   removeMovie = (movie) => {

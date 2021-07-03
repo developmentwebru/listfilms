@@ -8,6 +8,7 @@ class MovieItem extends React.Component {
             willWatch: false,
         }
     }
+   
     render() {
         const { movie, removeMovie, addMovieToWillWatch, removeMovieFromWillWatch } = this.props
         return (
@@ -26,7 +27,7 @@ class MovieItem extends React.Component {
                                     this.setState({
                                         willWatch: false
                                     })
-                                    removeMovieFromWillWatch( movie)
+                                    removeMovieFromWillWatch(movie)
                                 }}
                                 type='button'
                                 className='btn btn-success'>
@@ -38,7 +39,7 @@ class MovieItem extends React.Component {
                                     this.setState({
                                         willWatch: true
                                     })
-                                    addMovieToWillWatch( movie)
+                                    addMovieToWillWatch(movie)
                                 }}
                                 type='button'
                                 className='btn btn-secondary'>

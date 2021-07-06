@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/listfilms/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/listfilms/static/js/main.7496ad21.chunk.js",
+    "main.js.map": "/listfilms/static/js/main.7496ad21.chunk.js.map",
+    "runtime-main.js": "/listfilms/static/js/runtime-main.6d6e5680.js",
+    "runtime-main.js.map": "/listfilms/static/js/runtime-main.6d6e5680.js.map",
+    "static/css/2.fb17aa6d.chunk.css": "/listfilms/static/css/2.fb17aa6d.chunk.css",
+    "static/js/2.0aaa161c.chunk.js": "/listfilms/static/js/2.0aaa161c.chunk.js",
+    "static/js/2.0aaa161c.chunk.js.map": "/listfilms/static/js/2.0aaa161c.chunk.js.map",
+    "static/js/3.ecc930a3.chunk.js": "/listfilms/static/js/3.ecc930a3.chunk.js",
+    "static/js/3.ecc930a3.chunk.js.map": "/listfilms/static/js/3.ecc930a3.chunk.js.map",
+    "index.html": "/listfilms/index.html",
+    "static/css/2.fb17aa6d.chunk.css.map": "/listfilms/static/css/2.fb17aa6d.chunk.css.map",
+    "static/css/main.8c8b27cf.chunk.css.map": "/listfilms/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.0aaa161c.chunk.js.LICENSE.txt": "/listfilms/static/js/2.0aaa161c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d6e5680.js",
+    "static/css/2.fb17aa6d.chunk.css",
+    "static/js/2.0aaa161c.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.7496ad21.chunk.js"
+  ]
+}
